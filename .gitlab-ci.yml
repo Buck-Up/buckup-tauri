@@ -1,7 +1,7 @@
+image: "rust:latest"
+
 build:
-  image: node:latest
   stage: build
   script:
-    - |
-      npm install
-      npm run tauri build
+    - cargo install pnpm
+    - pnpm tauri build
