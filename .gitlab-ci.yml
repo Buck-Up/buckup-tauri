@@ -4,4 +4,5 @@ build:
   stage: build
   script:
     - cargo install pnpm
+    - pnpm install
     - pnpm tauri build
