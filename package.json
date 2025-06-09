@@ -1,7 +1,6 @@
 {
-  "name": "smartsync-tauri",
+  "name": "buckup-tauri",
   "version": "0.1.0",
-  "description": "",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
